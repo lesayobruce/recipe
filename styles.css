@@ -40,10 +40,11 @@
    }
    .search-container button {
     font-size: 1em;
-    background-color: #f4c531;
+    background-color: #f11f0f;
     border: none;
     font-weight: 600;
     border-radius: 0.3em;
+    font-style: italic;
    }
    img {
     display: block;
@@ -70,7 +71,7 @@
  position: relative;
  left: 75%;
  padding: 0.9em 0.6em;
- background-color: #f4c531;
+ background-color: #398574;
  border: none;
  top: 1.5em;
  border-radius: 0.3em;
@@ -78,7 +79,7 @@
 }
 #recipe {
 position: center;
-background-color: #c02f2f;
+background-color: #4a7a44;
 min-height: 100%;
 width: 100%;
 top: 0;
