@@ -28,6 +28,7 @@ searchBtn.addEventListener("click", () => {
            ingredients.push(`${measure} ${ingredient}`);
          }
        }
+       
        console.log(ingredients);
        result.innerHTML = `
    <img src=${myMeal.strMealThumb}>
