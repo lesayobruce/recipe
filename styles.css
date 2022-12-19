@@ -5,15 +5,6 @@
     font-family: "Poppins", sans-serif;
    }
     
-   body {
-    background-color: #d14209;
-    background-image: url(./chef.jpeg);
-    background-repeat: no-repeat;
-    background-position:center;
-    background-position-y: 120px;
-    
-   }
-    
    .container {
     background-color: #ffffff;
     font-size: 16px;
