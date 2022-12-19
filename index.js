@@ -1,7 +1,11 @@
-//Initial References
+//first reference 
+
 let result = document.getElementById("result");
+
 let searchBtn = document.getElementById("search-btn");
+
 let url = "https://www.themealdb.com/api/json/v1/1/search.php?s=";
+
 searchBtn.addEventListener("click", () => {
  let userInp = document.getElementById("user-inp").value;
  if (userInp.length == 0) {
@@ -44,10 +48,15 @@ searchBtn.addEventListener("click", () => {
        <button id="show-recipe">View Recipe</button>
        `;
            let ingredientCon = document.getElementById("ingredient-con");
+
            let parent = document.createElement("ul");
+
            let recipe = document.getElementById("recipe");
+
            let hideRecipe = document.getElementById("hide-recipe");
+
            let showRecipe = document.getElementById("show-recipe");
+           
            ingredients.forEach((i) => {
              let child = document.createElement("li");
              child.innerText = i;
